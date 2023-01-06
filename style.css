@@ -1,0 +1,487 @@
+/* main background color */
+
+body {
+    background-color: rgb(210, 212, 214);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header 1 */
+
+.header1 {
+    width: 99vw;
+    height: 60px;
+    background-color: rgb(24, 241, 249);
+    border-radius: 30px;
+
+}
+
+/* .logo{
+    position: absolute;
+   
+} */
+
+/* Header 2 */
+
+.header2 {
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(54, 176, 26);
+
+}
+
+/* Slider */
+
+
+.box {
+    width: 70%;
+    height: 60vh;
+    position: relative;
+    background-color: rgb(27, 68, 94);
+    margin: 20px auto;
+    background-image: url(https://img.freepik.com/premium-psd/super-grocery-sale-web-banner_120329-268.jpg?w=2000);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider 35s infinite linear;
+
+}
+
+/* Slider Images */
+
+
+@keyframes slider {
+    0% {
+        background-image: url(https://rukminim1.flixcart.com/flap/1400/1400/image/15cbd99e6fcb6fc1.jpg?q=50);
+    }
+
+    14% {
+        background-image: url(https://rukminim1.flixcart.com/flap/960/960/image/ed04b09381eec3f9.jpg?q=75);
+    }
+
+    28% {
+        background-image: url(https://storage.googleapis.com/easygrocery/2018/10/homepage-main-baner.jpg);
+    }
+
+    42% {
+        background-image: url(https://img.freepik.com/free-vector/gradient-local-market-sale-banner_23-2149462019.jpg?w=2000);
+    }
+
+    56% {
+        background-image: url(https://i.pinimg.com/736x/66/bf/64/66bf6482bd775818902991cd23470e94--shopping-photos.jpg);
+    }
+
+    70% {
+        background-image: url(https://himotto.com/storage/main_banner/images/11628333935.jpg);
+    }
+
+    84% {
+        background-image: url(https://img.freepik.com/premium-psd/vegetable-facebook-cover-template_349013-44.jpg?w=2000);
+    }
+
+}
+
+/* All the List */
+
+li {
+
+    display: inline;
+    margin: 30px;
+    font-size: 20px;
+    margin: 45px;
+
+    text-align: left;
+}
+
+/* Elements of anchor tag */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Class home anchor tag */
+
+.home a {
+    position: relative;
+    top: 3vh;
+    right: 0vw;
+}
+
+.search {
+    position: relative;
+    top: 18px;
+}
+
+/* Class login anchor tag */
+
+.login a {
+    position: relative;
+    top: 3vh;
+    left: 24vw;
+    color: blue;
+}
+
+/* Class lang anchor tag */
+
+.lang a {
+    position: relative;
+    top: 3vh;
+}
+
+/* Main container of the body */
+
+.cauli img {
+    border-radius: 10px;
+}
+.pot img {
+    border-radius: 10px;
+}
+.tom img {
+    border-radius: 10px;
+}
+.pea img {
+    border-radius: 10px;
+}
+.lady img {
+    border-radius: 10px;
+}
+.app img {
+    border-radius: 10px;
+}
+.ora img {
+    border-radius: 10px;
+}
+.gua img {
+    border-radius: 10px;
+}
+.pome img {
+    border-radius: 10px;
+}
+.ban img {
+    border-radius: 10px;
+}
+.soap1 img {
+    border-radius: 10px;
+}
+.soap2 img {
+    border-radius: 10px;
+}
+.soap3 img {
+    border-radius: 10px;
+}
+.soap4 img {
+    border-radius: 10px;
+}
+.soap5 img {
+    border-radius: 10px;
+}
+
+
+
+.vegetable {
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid rgb(10, 10, 10);
+    background-color: #21ad9a;
+}
+
+.fruit {
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid rgb(9, 9, 9);
+    background-color: #ff5c00;
+}
+
+.soap {
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid rgb(14, 13, 13);
+    background-color: #5deb32;
+}
+
+.detergent {
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid rgb(14, 13, 13);
+    background-color: #df2ba9;
+}
+.containerA {
+    display: flex;
+    /* min-height: calc(100vh - 80px - 70px - 20px); */
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.containerB {
+    display: flex;
+    /* min-height: calc(100vh - 80px - 70px - 20px); */
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.containerC {
+    display: flex;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.containerD {
+    display: flex;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    width: 280px;
+    height: 280px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 20px 10px;
+
+}
+
+
+.container2 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(47, 190, 183);
+    border-radius: 10px;
+    margin: 20px 10px;
+
+}
+
+.container3 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(193, 52, 143);
+    border-radius: 10px;
+    margin: 20px 10px;
+
+}
+
+.container4 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(201, 173, 31);
+    border-radius: 10px;
+    margin: 20px 10px;
+
+}
+
+.container5 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(27, 212, 64);
+    border-radius: 10px;
+    margin: 20px 10px;
+
+}
+
+.container6 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(200, 194, 27);
+    border-radius: 10px;
+    margin: 20px 10px;
+
+}
+
+.container7 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(220, 6, 6);
+    border-radius: 10px;
+    margin: 20px 10px;
+
+}
+
+.container8 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(141, 19, 179);
+    border-radius: 10px;
+    margin: 20px 10px;
+
+}
+
+.container9 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(141, 19, 179);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container10 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(233, 169, 50);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container11 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(217, 60, 157);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container12 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(237, 202, 75);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container13 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(141, 19, 179);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container14 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(80, 132, 237);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container15 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(234, 94, 206);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container16 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(244, 88, 49);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container17 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(141, 19, 179);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container18 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(224, 230, 59);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container19 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(79, 205, 63);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.container20 {
+    width: 280px;
+    height: 280px;
+    background-color: rgb(19, 115, 179);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+
+/* P1 is  Topic name */
+
+.p1 {
+    margin: 5px;
+    text-align: center;
+}
+
+.p2{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Clickable button */
+
+.btn {
+    position: relative;
+    /* margin: 10px; */
+    float: right;
+    top: 10px;
+    right: 10px;
+    height: 38px;
+    width: 96px;
+    background-color: yellow;
+    border-radius: 10px;
+
+}
+
+.btn1 {
+    position: relative;
+    /* margin: 10px; */
+    float: left;
+    top: 10px;
+    right: -7px;
+    height: 30px;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background-color: rgb(52, 67, 225);
+}
+
+/* Anchor tag in button */
+
+.btn a {
+    color: black;
+}
+
+/* Footer */
+
+.footer {
+    width: 99vw;
+    height: 70px;
+    background-color: rgb(62, 87, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 30px;
+
+}
+
+/* Contact Address */
+
+.foot {
+    position: relative;
+    top: -7vh;
+    left: 82vw;
+    color: white;
+
+}
+
+.contact {
+    position: relative;
+    top: -6vh;
+    left: 82vw;
+    color: white;
+
+}
